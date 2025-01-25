@@ -1,15 +1,18 @@
 {
-  "name": "[internal-mod-name]",
-  "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "name": "QualityEffectsFixed",
+  "version": "0.1.5",
+  "title": "Quality Effects Fixed",
+  "author": "TsumikiMiniwa",
+  "homepage": "https://github.com/cpaca/QualityEffectsFixed",
+  "description": "Quality now adds module slots in assembling machines. Forked from Andrey135296's version of the mod to fix many significant bugs.",
   "factorio_version": "2.0",
   "dependencies": [
-    "base"
+    "base >= 2.0.23", 
+    "quality >= 2.0.23", 
+    "? space-age >= 2.0.23",
+    "? maraxsis"
   ],
-  "quality_required": false,
+  "quality_required": true,
   "rail_bridges_required": false,
   "space_travel_required": false,
   "spoiling_required": false,
