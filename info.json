@@ -10,7 +10,8 @@
     "base >= 2.0.23", 
     "quality >= 2.0.23", 
     "? space-age >= 2.0.23",
-    "? maraxsis"
+    "? maraxsis",
+    "? SchallMachineScaling"
   ],
   "quality_required": true,
   "rail_bridges_required": false,
