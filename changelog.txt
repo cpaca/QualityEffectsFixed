@@ -5,6 +5,7 @@ Date: 2025-01-25
     - Schall Machine Scaling fix
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.4
+Date: 2024-01-11
   Features:
     - Fixed cerys + this mod crashing on startup
 ---------------------------------------------------------------------------------------------------
@@ -12,4 +13,4 @@ Version: 1.0.3
 Date: 2024-01-08
   Features:
     - Added changelog.txt
-    - Fixed placeable_by value in maraxsis hydro plants
+    - Fixed placeable_by value in maraxsis hydro plants
