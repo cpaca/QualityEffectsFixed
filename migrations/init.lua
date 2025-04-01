@@ -3,8 +3,8 @@ local function stringStarts(String, Start)
 end
 
 local machines = {}
-for name, machine in pairs(game.entity_prototypes) do
-    if machine.type == "assembling-machine" and machine.module_inventory_size > 0 and not stringStarts(name, "QualityEffects-") then
+for name, machine in pairs(prototypes.get_entity_filtered{{filter="type", type="assembling-machine"}}) do
+    if machine.module_inventory_size > 0 and not stringStarts(name, "QualityEffects-") then
         machines[name] = true
     end
 end
