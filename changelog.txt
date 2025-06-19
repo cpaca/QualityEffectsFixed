@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2025-06-19
+  Features:
+    - Add toggle settings for QEF features
+    - Full new QEF implementation
+    - QEF affects rocket silos, beacons, drills, and labs
+    - Separate toggles for furnaces and crafters
+  Bugfixes:
+    - Remove all bugs that existed in 1.0.4
+  Changes:
+    - Change thumbnail
+    - Rewrite info.json ground-up
+    - Update license to CC BY-NC-SA
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2025-04-01
   Bugfixes:
