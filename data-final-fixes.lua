@@ -4,7 +4,7 @@ local function apply_qef_to_type(prototype_name)
             goto continue
         end
 
-        data.raw[name]["quality_affects_module_slots"] = true
+        data.raw[prototype_name][name]["quality_affects_module_slots"] = true
 
         ::continue::
     end
