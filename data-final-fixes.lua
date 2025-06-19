@@ -18,6 +18,10 @@ if settings.startup["qef-affects-furnaces"] then
     apply_qef_to_type("furnace")
 end
 
+if settings.startup["qef-affects-silos"] then
+    apply_qef_to_type("rocket-silo")
+end
+
 if settings.startup["qef-affects-beacons"] then
     apply_qef_to_type("beacon")
 end

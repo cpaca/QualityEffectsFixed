@@ -7,7 +7,13 @@ data:extend({
     }, 
     {
         type = "bool-setting",
-        name = "qef-affects_furnaces",
+        name = "qef-affects-furnaces",
+        setting_type = "startup",
+        default_value = false
+    }, 
+    {
+        type = "bool-setting",
+        name = "qef-affects-rocket-silos",
         setting_type = "startup",
         default_value = false
     }, 
