@@ -1,31 +1,31 @@
 data:extend({
     {
         type = "bool-setting",
-        name = "qef_affects_assembling_machines",
+        name = "qef-affects-assembling-machines",
         setting_type = "startup",
         default_value = true
     }, 
     {
         type = "bool-setting",
-        name = "qef_affects_furnaces",
+        name = "qef-affects_furnaces",
         setting_type = "startup",
         default_value = false
     }, 
     {
         type = "bool-setting",
-        name = "qef_affects_beacons",
+        name = "qef-affects-beacons",
         setting_type = "startup",
         default_value = false
     }, 
     {
         type = "bool-setting",
-        name = "qef_affects_mining_drills",
+        name = "qef-affects-mining-drills",
         setting_type = "startup",
         default_value = false
     }, 
     {
         type = "bool-setting",
-        name = "qef_affects_labs",
+        name = "qef-affects-labs",
         setting_type = "startup",
         default_value = false
     }
