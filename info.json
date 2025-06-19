@@ -4,14 +4,11 @@
   "title": "Quality Effects Fixed",
   "author": "TsumikiMiniwa",
   "homepage": "https://github.com/cpaca/QualityEffectsFixed",
-  "description": "Quality now adds module slots in assembling machines. Forked from Andrey135296's version of the mod to fix many significant bugs.",
+  "description": "Lets you toggle whether or not quality adds module slots to buildings. Versions below 1.1.0 (you are on 1.1.0+) were forked from Andrey135296's code to fix certain bugs.",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.23",
-    "quality >= 2.0.23",
-    "? space-age >= 2.0.23",
-    "? maraxsis",
-    "? SchallMachineScaling"
+    "base >= 2.0.57",
+    "quality"
   ],
   "quality_required": true,
   "rail_bridges_required": false,
