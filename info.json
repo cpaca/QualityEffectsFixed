@@ -7,7 +7,8 @@
   "description": "Lets you toggle whether or not quality adds module slots to buildings. Versions below 1.1.0 (you are on 1.1.0+) were forked from Andrey135296's code to fix certain bugs.",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.57"
+    "base >= 2.0.57",
+    "quality"
   ],
   "quality_required": true,
   "rail_bridges_required": false,
