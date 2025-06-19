@@ -1,6 +1,6 @@
 local function apply_qef_to_type(prototype_name)
     for name, obj in pairs(data.raw[prototype_name]) do
-        if obj["qef_ignore"] or obj["qef-ignore"] or obj["qef ignore"] then
+        if obj["qef_ignore"] then
             goto continue
         end
 
