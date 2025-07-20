@@ -4,7 +4,7 @@ local function apply_qef_to_type(prototype_name)
             goto continue
         end
 
-        if obj["allowed_effects"] ~= nil and table_size(obj["allowed_effects"]) == 0 then
+        if obj["allowed_effects"] == nil or table_size(obj["allowed_effects"]) == 0 then
             -- Not sure if I want to change this in 1.2.0, possibly by adding a setting to force override this.
             goto continue
         end
